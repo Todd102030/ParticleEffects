@@ -32,7 +32,6 @@ function love.load()
 	love.graphics.setBackgroundColor(255,255,255,255)
 	love.window.setMode(500,500,{resizable = true, vsync = false})
 
-	ball = love.graphics.newImage("ball.png")
 	rotationVal = 0
 	xPos = 200
 	yPos = 200
